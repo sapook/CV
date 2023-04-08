@@ -56,7 +56,7 @@ BGhead {
 /* Split the screen in half */
 .split {
     height: 100%;
-    width: 65%;
+    width: 68%;
     position: fixed;
     z-index: 1;
     top: 10px;
@@ -76,7 +76,7 @@ BGhead {
   .centeredleft {
     position: absolute;
     top: 46.8%;
-    left: 35%;
+    left: 32%;
     transform: translate(-60%, +20%);
     text-align: left;
   }
@@ -97,7 +97,7 @@ BGhead {
     margin-top: 35PX;
 }
 .lineleft{
-    width: 380px;
+    width: 360px;
 }
 .lineright{
     width: 1070px;
