@@ -1,0 +1,131 @@
+.box {
+    position: relative;    
+    font-family: 'Roboto', sans-serif;
+}
+BGhead {
+    background-color:  #66D2D6;    
+    padding: 5px;
+    margin: 75px; 
+    width: 100%; 
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: 155px; 
+    margin-left: 400px;
+    display: inline-block; 
+    position: absolute;
+    max-width: 1350px;
+}
+.Profile {
+    top:50px;
+    border-radius: 400px;
+    margin-right: 60px;
+    margin-left: 180px; 
+    position: absolute;
+    background-size: cover;
+}
+.circle {
+    border:15px solid #66D2D6;    
+    height:400px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:400px;
+    position: absolute;
+}
+.txtname{
+    position: absolute;
+    margin-left: 265px;
+    margin-top: 40px; 
+    font-family: 'Roboto', sans-serif;
+    color: rgb(39, 37, 37);    
+    font-size: 60px;
+    font-weight: 1200px;
+}
+.txtname2{
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 115px; 
+    font-family: 'Roboto', sans-serif;
+    color: #FDFFF0;    
+    font-size: 40px;
+    font-weight: 10px;
+}
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 65%;
+    position: fixed;
+    z-index: 1;
+    top: 10px;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+  }
+  .centeredleft {
+    position: absolute;
+    top: 46.8%;
+    left: 35%;
+    transform: translate(-60%, +20%);
+    text-align: left;
+  }
+  .centeredright {
+    position: absolute;
+    top: 39%;
+    left: 29%;
+    transform: translate(-30%, 0%);
+   text-align: left;
+  }
+
+  .txttopic{
+    color: #2c2929; 
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 0;
+    margin-bottom: 12PX;
+    margin-top: 35PX;
+}
+.lineleft{
+    width: 380px;
+}
+.lineright{
+    width: 1070px;
+}
+
+.formatline{  
+  background-color: #66D2D6;
+  height: 7px;      
+  margin-left: 0px;
+  margin-bottom: 15px;
+  margin-top: -5px;
+}
+
+.txtcontent{
+  font-size: 20px;
+  font-weight: 400; 
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color: black;
+   text-decoration: none;
+}
+.txtemoji{  
+  margin-bottom: px;
+  margin-top: 5px;
+  color: black;
+   text-decoration: none;
+   margin-left: 0px;
+   width: 30px;
+   height: 20px;   
+  font-size: 20px;
+  font-weight: 400; 
+  text-align: center;
+  margin-right: 15px;
+}
