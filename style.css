@@ -2,6 +2,9 @@
     position: relative;    
     font-family: 'Roboto', sans-serif;
 }
+body {
+  background-color: #FDFFF0 
+ }
 BGhead {
     background-color:  #66D2D6;    
     padding: 5px;
